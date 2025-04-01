@@ -26,7 +26,7 @@ while True:
         if amount_of_lower_letters < 0:
             print("Number cannot be a negative.")
             continue  # ask again
-        break  # valid input and non-negative
+        break  #will exist once user enters a valid numbers
     except ValueError:
         print("Please enter a valid number.")
 
@@ -37,7 +37,7 @@ while True:
         if amount_of_upper_letters < 0:
             print("Number cannot be a negative.")
             continue  # ask again
-        break  # valid input and non-negative
+        break  #will exist once user enters a valid numbers
     except ValueError:
         print("Please enter a valid number.")
 
@@ -47,7 +47,7 @@ while True:
         if amount_of_numbers < 0:
             print("Number cannot be a negative.")
             continue  # ask again
-        break  # valid input and non-negative
+        break  #will exist once user enters a valid numbers
     except ValueError:
         print("Please enter a valid number.")
 
@@ -57,7 +57,7 @@ while True:
         if amount_of_special_characters < 0:
             print("Number cannot be a negative.")
             continue  # ask again
-        break  # valid input and non-negative
+        break  #will exist once user enters a valid numbers
     except ValueError:
         print("Please enter a valid number.")
 lower_letters = random.choices(list_of_lower_letter,k=amount_of_lower_letters)
